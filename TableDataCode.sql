@@ -277,3 +277,4 @@ INSERT INTO "main"."AUTHOR_BOOK" ("AuthorID", "BookID") VALUES
   ('101', '61161721'),
   ('101', '61161721');
   
+INSERT INTO "main"."BOOK" ("ISBN", "Pub_Date", "Price", "Stock", "Title", "Genre", "Publisher_ID") VALUES
