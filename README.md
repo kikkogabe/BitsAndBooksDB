@@ -10,7 +10,7 @@ My database was created on DB Browser for SQLite but can likely work on any othe
 
 * **Gabriele Azzarita** - *Initial work* - [kikkogabe](https://github.com/kikkogabe)
 * **Shritan Gunday** - *Initial work*
-* * **Shashank Raghuraj** - *Initial work*
-* * **Kathir Maarik** - *Initial work*
+* **Shashank Raghuraj** - *Initial work*
+* **Kathir Maarik** - *Initial work*
 
 Shritan, Shashank, and Kathir were my partners throughout the project. They helped with the brainstorming process and the development of the ER Diagram, Relational Schema, and SQL code for this database.
