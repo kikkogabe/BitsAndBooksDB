@@ -66,9 +66,9 @@ CREATE TABLE ORDERS (
 
 CREATE TABLE "PUBLISHER" (
 	"Publisher_ID"	INT 		NOT NULL,
-	"Name"		VARCHAR(15) 	NOT NULL,
+	"Name"		VARCHAR(50) 	NOT NULL,
 	"Address"	VARCHAR(50),
-	"PNum"		INT,
+	"PNum"		CHAR(10),
 	PRIMARY KEY("Publisher_ID")
 )
 
