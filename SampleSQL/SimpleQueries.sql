@@ -19,7 +19,7 @@
   FROM CUSTOMER C, AUTHOR A, ORDERS O, IS_CONTAINED IC, BOOK B, AUTHOR_BOOK AB
   WHERE A.Lname = 'Pratchett' AND A.Author_ID = AB.AuthorID AND AB.BookID = B.ISBN AND B.ISBN = IC.Book_ID AND IC.Order_ID = O.Order_ID AND O.Customer_ID = C.Cust_ID;
 
--- Find the total number of books purchased by a single customer (you choose how to designate the customer)
+-- Find the total number of books purchased by a single customer
 
   SELECT SUM(Quantity) FROM ORDERS O, CUSTOMER C, IS_CONTAINED IC
   WHERE C.Cust_ID = xx AND C.Cust_ID = O.Customer_ID AND O.Order_ID = IC.Order_ID;
