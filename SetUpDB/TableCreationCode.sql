@@ -33,7 +33,7 @@ CREATE TABLE CUSTOMER(
 	Lname		VARCHAR(30)	NOT NULL,
 	Bill_addr	VARCHAR(50)	NOT NULL,
 	Ship_addr	VARCHAR(50)	NOT NULL,	
-	PNum		CHAR(10),
+	PNum		CHAR(12),
 	Email		VARCHAR(50)	NOT NULL,
 	PRIMARY KEY(Cust_ID)
 )
@@ -68,7 +68,7 @@ CREATE TABLE "PUBLISHER" (
 	"Publisher_ID"	INT 		NOT NULL,
 	"Name"		VARCHAR(50) 	NOT NULL,
 	"Address"	VARCHAR(50),
-	"PNum"		CHAR(10),
+	"PNum"		CHAR(12),
 	PRIMARY KEY("Publisher_ID")
 )
 
