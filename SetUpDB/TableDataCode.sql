@@ -377,7 +377,7 @@ INSERT INTO "main"."CUSTOMER" ("Cust_ID", "Fname", "Mi", "Lname", "Bill_addr", "
   ('20', 'Jessica', 'T', 'Gonzalez', '888 Main St', '888 Main St', '555-012-1212', 'jessica.gonzalez@example.com');
 
 
-INSERT INTO "main"."CC_INFO" ("Cust_ID", "CC", "CCV", "Exp") VALUES
+INSERT INTO "main"."CC_INFO" ("Cust_ID", "CC", "CVV", "Exp") VALUES
   ('1', '1234-5678-9012-3456', '123', '12/25'),
   ('2', '2345-6789-0123-4567', '234', '06/23'),
   ('3', '3456-7890-1234-5678', '345', '09/24'),
