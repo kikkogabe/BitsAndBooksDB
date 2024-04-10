@@ -21,7 +21,7 @@ CREATE TABLE "BOOK" (
 	"Stock"		INT 	NOT NULL,
 	"Title"		VARCHAR(1000) 	NOT NULL,
 	"Genre"		VARCHAR(30),
-	"Publisher_ID"	INT,
+	"Publisher_ID"	INT NOT NULL,
 	PRIMARY KEY("ISBN"),
 	FOREIGN KEY("Publisher_ID") REFERENCES "PUBLISHER"("Publisher_ID")
 )
