@@ -18,7 +18,7 @@ CREATE TABLE "BOOK" (
 	"ISBN"		VARCHAR(13) 	NOT NULL,
 	"Pub_Date"	DATE,
 	"Price"		DECIMAL(10, 2) 	NOT NULL,
-	"Stock"		NUMERIC 	NOT NULL,
+	"Stock"		INT 	NOT NULL,
 	"Title"		VARCHAR(1000) 	NOT NULL,
 	"Genre"		VARCHAR(30),
 	"Publisher_ID"	INT,
