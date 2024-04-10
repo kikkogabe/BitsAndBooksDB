@@ -59,7 +59,7 @@ CREATE TABLE ORDERS (
 	Order_ID	INT,
 	Customer_ID	INT	NOT NULL,
 	Order_Date	DATE	NOT NULL,
-	Delivery_Date	DATE	NOT NULL,
+	Delivery_Date	DATE,
 	PRIMARY KEY(Order_ID),
 	FOREIGN KEY(Customer_ID) REFERENCES CUSTOMER(Cust_ID)
 )
